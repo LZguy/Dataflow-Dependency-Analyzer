@@ -61,9 +61,7 @@ dflow-analyzer/
 │  ├─ dflow_calc.c            # full implementation (this repo)
 │  ├─ dflow_calc.h            # API (provided)
 │  └─ dflow_main.c            # harness: I/O + CLI queries
-├─ examples/
-│  ├─ example1.in             # program trace (opcode dst src1 src2)
-│  └─ opcode1.dat             # opcode latencies (one decimal per line)
+├─ examples/                  # provided by the course' staff
 ├─ tools/
 │  └─ makefile                # builds 'dflow_calc' executable
 ├─ .gitignore
